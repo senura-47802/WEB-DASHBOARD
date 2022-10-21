@@ -1,0 +1,190 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" ,="" initial-scale="1.0">
+        <title>Bank Dashboard</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-university" aria-hidden="true"></i></span>
+                            <span class="title"><h2>SENURA PERERA</h2></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                            <span class="title">Accounts</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span>
+                            <span class="title">Credit Cards</span>
+                    
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle" onclick="toggleMenu()"></div>
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+
+                        </label>
+                    </div>
+                    <div class="user">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png">
+                    </div>
+                </div>
+
+                <div class="cardBox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.300,000</div>
+                            <div class="cardName">Current Account Balance</div>
+                            
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.350,000</div>
+                            <div class="cardName">Savings Account Balance</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+
+
+                        </div>
+                    </div>
+
+                  
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.70,000</div>
+                            <div class="cardName">Balance for credit card</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="recentActivities">
+                        <div class="cardHeader">
+                            <h2>Recent Activities</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>                                
+                                    <td>Name</td>
+                                    <td>Amount</td>
+                                    <td>Payment Type</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><b>Senura Perera</b></td>
+                                    <td>Rs.230,000</td>
+                                    <td>Receive</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td><b>Binuka somaweeera</b></td>
+                                    <td>Rs.230,000</td>
+                                    <td>send to senura perera</td>
+                                    <td><span class="status completed">completed</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td><b>Luthira Gunasekara</b></td>
+                                    <td>RS.30,000</td>
+                                    <td>Send to senura perera</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Javith Gunathilaka</b></td>
+                                    <td>33,000</td>
+                                    <td>send to senura perera</td>
+                                    <td><span class="status pending">Completed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="currentExchangerates">
+                        <div class="cardHeader">
+                            <h2>Current other currency Rates</h2>
+                            
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><h4><br><span></span></h4></td>
+                                </tr>                                
+                                <tr>
+                                    <td><h4>US dollar<br><span>Rs.200</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>EUR<br><span>Rs.238</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Indian Rupees<br><span>RS.3</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Thai Baht<br><span>Rs.6</span></h4></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>
+
+            </div>          
+
+        </div>
+        <script src="main.js"></script>
+        </body>
+        </html>
